@@ -1,3 +1,42 @@
+/* Main */
 * {
   margin: 0;
+}
+
+body {
+  font-family:'Microsoft Yi Baiti', Tahoma, Geneva, Verdana, sans-serif;
+  color: #88c070;
+  background-image: url("../img/background.png");
+}
+
+/* Basic text */
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 40px;
+}
+
+li {
+  font-size: 40px;
+}
+
+/* Anchor */
+a {
+  color: #88c070;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #88c070;
+}
+
+a:hover {
+  color: #e0f8d0;
 }
