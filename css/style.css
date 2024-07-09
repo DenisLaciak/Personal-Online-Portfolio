@@ -1,6 +1,7 @@
 /* Main */
 * {
   margin: 0;
+  font-weight: normal;
 }
 
 body {
@@ -33,10 +34,31 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: #88c070;
-}
-
 a:hover {
   color: #e0f8d0;
+}
+
+/* Navbar */
+nav {
+  width: 300px;
+}
+
+.current {
+  color: #e0f8d0;
+}
+
+#home span:hover:before {
+  content: " ";
+}
+
+#about span:hover:before {
+  content: " ";
+}
+
+#contact span:hover:before {
+  content: " ";
+}
+
+#projects span:hover:before {
+  content: " ";
 }
