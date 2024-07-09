@@ -7,30 +7,37 @@
 body {
   font-family:'Microsoft Yi Baiti', Tahoma, Geneva, Verdana, sans-serif;
   color: #88c070;
-  background-image: url("../img/background.png");
+  width: 85%;
+  margin: auto;
+}
+
+img {
+  position: fixed;
+  z-index: -1;
+  width: 85%;
 }
 
 /* Basic text */
 h1 {
-  font-size: 72px;
+  font-size: 4vw;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 2.6vw;
 }
 
 p {
-  font-size: 40px;
+  font-size: 2.1vw;
 }
 
 li {
-  font-size: 40px;
+  font-size: 2.1vw;
 }
 
 /* Anchor */
 a {
   color: #88c070;
-  font-size: 40px;
+  font-size: 2.1vw;
   text-decoration: none;
 }
 
