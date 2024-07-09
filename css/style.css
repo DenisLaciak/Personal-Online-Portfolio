@@ -8,10 +8,13 @@ body {
   color: #88c070;
   width: 85%;
   margin: auto;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 img {
   position: fixed;
+  user-select: none;
   z-index: -1;
   width: 85%;
 }
@@ -19,23 +22,19 @@ img {
 header {
   padding-left: 4.6vw;
   padding-top: 14vw;
-  line-height: 0.7;
+  line-height: 2.5vw;
+  user-select: none;
 }
 
-/* Main */
-main {
-  line-height: 0.9;
-  position: fixed;
-  width: 50vw;
-  left: 34.2vw;
-  top: 14vw;
+a {
+  display: block;
+  width: fit-content;
+  color: #88c070;
+  font-size: 2.1vw;
+  text-decoration: none;
+  -webkit-user-drag: none;
 }
 
-main p {
-  padding-top: 1.2vw;
-}
-
-/* Basic text */
 h1 {
   font-size: 4vw;
 }
@@ -52,15 +51,54 @@ li {
   font-size: 2.1vw;
 }
 
-/* Anchor */
-a {
-  color: #88c070;
-  font-size: 2.1vw;
-  text-decoration: none;
+ul {
+  padding-left: 3.2vw;
 }
 
 a:hover {
   color: #e0f8d0;
+}
+
+/* Main */
+main {
+  line-height: 2vw;
+  position: fixed;
+  width: 50vw;
+  left: 34.2vw;
+  user-select:text;
+}
+
+main a {
+  user-select: none;
+}
+
+main.twoline {
+  top: 14.4vw;
+}
+
+main.oneline {
+  top: 16.4vw;
+}
+
+main h2::selection {
+  text-decoration: underline;
+}
+
+main p {
+  padding-top: 1.2vw;
+}
+
+main li p {
+  padding: 0;
+}
+
+main p::selection {
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+main li::selection {
+  text-decoration: underline;
 }
 
 /* Navbar */
