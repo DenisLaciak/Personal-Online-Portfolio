@@ -1,10 +1,15 @@
+@font-face {
+  font-family: 'Yi Baiti';
+  src: url('../fonts/Microsoft Yi Baiti.ttf');
+}
+
 * {
   margin: 0;
   font-weight: normal;
 }
 
 body {
-  font-family:'Microsoft Yi Baiti', Tahoma, Geneva, Verdana, sans-serif;
+  font-family:'Yi Baiti', Tahoma, Geneva, Verdana, sans-serif;
   color: #88c070;
   width: 85%;
   margin: auto;
