@@ -1,4 +1,3 @@
-/* Main */
 * {
   margin: 0;
   font-weight: normal;
@@ -15,6 +14,25 @@ img {
   position: fixed;
   z-index: -1;
   width: 85%;
+}
+
+header {
+  padding-left: 4.6vw;
+  padding-top: 14vw;
+  line-height: 0.7;
+}
+
+/* Main */
+main {
+  line-height: 0.9;
+  position: fixed;
+  width: 50vw;
+  left: 34.2vw;
+  top: 14vw;
+}
+
+main p {
+  padding-top: 1.2vw;
 }
 
 /* Basic text */
@@ -47,7 +65,8 @@ a:hover {
 
 /* Navbar */
 nav {
-  width: 300px;
+  padding-left: 4.6vw;
+  padding-top: 1vw;
 }
 
 .current {
@@ -68,4 +87,14 @@ nav {
 
 #projects span:hover:before {
   content: " ";
+}
+
+/* Footer */
+footer {
+  padding-top: 13.6vw;
+  width: 25vw;
+}
+
+footer p {
+  text-align: right;
 }
